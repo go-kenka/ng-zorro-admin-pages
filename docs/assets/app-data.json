@@ -1,0 +1,137 @@
+{
+  "app-name": "",
+  "version": "0.0.1",
+  "menus": {
+    "dashboard": [
+      {
+        "level": 1,
+        "title": "主页",
+        "icon": "home",
+        "path": "home",
+        "open": true,
+        "selected": false,
+        "disabled": false
+      },
+      {
+        "level": 1,
+        "title": "仪表盘",
+        "icon": "dashboard",
+        "path": "dashboard",
+        "open": false,
+        "selected": false,
+        "disabled": false
+      }
+    ],
+    "data": [
+      {
+        "level": 1,
+        "title": "系统管理",
+        "icon": "setting",
+        "open": false,
+        "selected": false,
+        "disabled": false,
+        "children": [
+          {
+            "level": 2,
+            "title": "用户管理",
+            "icon": "user",
+            "path": "users",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "level": 2,
+            "title": "角色管理",
+            "icon": "profile",
+            "path": "role",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "level": 2,
+            "title": "组织管理",
+            "icon": "group",
+            "path": "group",
+            "selected": false,
+            "disabled": false
+          }
+        ]
+      },
+      {
+        "level": 1,
+        "title": "配置中心",
+        "icon": "setting",
+        "open": false,
+        "selected": false,
+        "disabled": false,
+        "children": [
+          {
+            "level": 2,
+            "title": "字典管理",
+            "icon": "read",
+            "path": "dictionary",
+            "selected": false,
+            "disabled": false
+          },
+          {
+            "level": 2,
+            "title": "映射管理",
+            "icon": "one-to-one",
+            "path": "mapping",
+            "selected": false,
+            "disabled": false
+          }
+        ]
+      }
+    ],
+    "report": [
+      {
+        "level": 1,
+        "title": "人员报表",
+        "icon": "folder",
+        "open": false,
+        "path": "user-report",
+        "selected": false,
+        "disabled": false
+      },
+      {
+        "level": 1,
+        "title": "财务报表",
+        "icon": "folder",
+        "open": false,
+        "path": "cai-report",
+        "selected": false,
+        "disabled": false
+      }
+    ],
+    "setting": [
+      {
+        "level": 1,
+        "title": "日程安排",
+        "icon": "calendar",
+        "open": false,
+        "path": "calendar-setting",
+        "selected": false,
+        "disabled": false
+      },
+      {
+        "level": 1,
+        "title": "邮件中心",
+        "icon": "mail",
+        "open": false,
+        "path": "email-setting",
+        "selected": false,
+        "disabled": false
+      },
+      {
+        "level": 1,
+        "title": "通知中心",
+        "icon": "bell",
+        "open": false,
+        "path": "notify-setting",
+        "selected": false,
+        "disabled": false
+      }
+    ]
+  }
+}
